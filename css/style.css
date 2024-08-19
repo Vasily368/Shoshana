@@ -1,0 +1,359 @@
+@font-face {
+  font-family: "TT Norms Pro";
+  src: url("../fonts/TTNormsPro-Regular.ttf");
+  font-weight: 400; }
+@font-face {
+  font-family: "Saol Display";
+  src: url("../fonts/SaolDisplay-Regular.ttf");
+  font-weight: 400; }
+@font-face {
+  font-family: "Aston Script";
+  src: url("../fonts/Aston Script.ttf");
+  font-weight: 700; }
+html, body {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "TT Norms Pro", sans-serif;
+  font-weight: 400;
+  color: #000;
+  font-size: 30px !important; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.main {
+  flex-grow: 1; }
+
+.container {
+  max-width: 1356px;
+  padding: 0 30px;
+  margin: 0 auto; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.section-link {
+  border: 1px solid #000;
+  border-radius: 50px;
+  padding: 19px 64px 19px 24px;
+  color: #000;
+  position: relative; }
+  .section-link::after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 24px;
+    bottom: 50%;
+    transform: translateY(50%);
+    background-image: url(../images/arrow_link.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+
+.section-link span:hover {
+  border-bottom: 1px solid #000; }
+
+.section-link span:active {
+  border: none; }
+
+.section-link:active {
+  color: #000;
+  background: #fff; }
+
+.section-link:active::after {
+  background-image: url(../images/arrow_link.svg); }
+
+.header {
+  background-color: #060503;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 400px; }
+
+.header__nav {
+  padding: 56px 0 102px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: right; }
+
+.logo {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 auto; }
+
+.nav__list {
+  display: flex;
+  gap: 24px;
+  align-items: center; }
+
+.nav__list-link {
+  font-family: "Saol Display";
+  font-size: 20px;
+  color: #fff; }
+
+.header__title {
+  font-size: 70px;
+  line-height: 135px;
+  color: #fff;
+  font-family: "Saol Display";
+  font-weight: 400;
+  margin-bottom: 120px; }
+
+.header__title span {
+  font-family: "Aston Script";
+  font-weight: 400; }
+
+.header__text {
+  color: #fff;
+  width: 458px;
+  margin: 0 auto 40px; }
+
+.header__link {
+  margin-top: 80px;
+  float: right;
+  border: 1px solid #fff;
+  color: #fff; }
+  .header__link::after {
+    background-image: url(../images/arrow_link-wigth.svg); }
+
+.header__link span:hover {
+  border-bottom: 1px solid #fff !important; }
+
+.header__link:active::after {
+  background-image: url(../images/arrow_link.svg); }
+
+.baby {
+  background: #060503; }
+
+.baby__inner {
+  padding: 88px 0 39px;
+  position: relative !important; }
+
+.section__title {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Saol Display";
+  font-weight: 400;
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+.inner-div {
+  float: left;
+  width: 30%;
+  height: 40px; }
+
+.baby__text-top {
+  display: block;
+  font-size: 76px;
+  line-height: 100.1%;
+  color: #fff; }
+
+.baby__text-selection {
+  color: #838383; }
+
+.baby__text-wrap {
+  margin: 84px 0; }
+
+.baby__inner-div {
+  height: 200px;
+  width: 30%;
+  float: left; }
+
+.baby-bottom__inner-div {
+  width: 54%; }
+
+.baby__text {
+  color: #fff; }
+
+.baby__text-padding {
+  padding-right: 440px; }
+
+.running-line {
+  overflow: hidden; }
+
+.running-line__text {
+  width: 5000px;
+  font-size: 175px;
+  font-family: "Saol Display";
+  color: #fff; }
+
+.about {
+  padding-bottom: 250px; }
+
+.about-bg {
+  overflow: hidden;
+  height: 100vh;
+  background-color: #060503; }
+
+.about-bg__img {
+  object-fit: fill;
+  width: 100%;
+  height: auto; }
+
+.about-bg__sub-text {
+  padding: 180px 0 480px 0; }
+
+.about__sub-text {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  width: 648px; }
+
+.about__text-wrap {
+  display: flex; }
+
+.about__text-wrap div {
+  width: 40%;
+  height: 300px; }
+
+.about__text {
+  margin-bottom: 80px; }
+
+.about__title-wrap {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 39px; }
+
+.about__title {
+  font-family: "Saol Display";
+  font-size: 130px;
+  font-weight: 400; }
+
+.about__subtitle {
+  padding-left: 10px;
+  line-height: 50px; }
+
+.about__content {
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: space-between; }
+
+.about__content-left {
+  width: 50%; }
+
+.about__content-left .about__text {
+  width: 50%; }
+
+.about__content-right {
+  width: 50%; }
+
+.about__content-img {
+  float: right;
+  object-fit: fill;
+  max-width: 512px;
+  height: auto; }
+
+.about__content-title {
+  line-height: 100px;
+  font-size: 130px;
+  font-family: "Saol Display";
+  font-weight: 400; }
+
+.about-running__line-text {
+  color: #000; }
+
+.bunner {
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.bunner__titles {
+  padding: 509px 0 289px; }
+
+.bunner__titles div {
+  float: left;
+  height: 50px;
+  width: 35%; }
+
+.bunner__title {
+  color: #fff;
+  font-family: "Saol Display";
+  font-size: 96px;
+  line-height: 80%;
+  font-weight: 400; }
+
+.sub-bunner {
+  margin-top: 80px; }
+
+.sub-bunner__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 180px;
+  padding-right: 100px; }
+
+.sub-bunner__text {
+  max-width: 481px; }
+
+.services__inner {
+  position: relative;
+  padding-bottom: 350px; }
+
+.services__title {
+  color: #000; }
+
+.services__text-top {
+  font-size: 55px; }
+
+.services__row {
+  margin-top: 124px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px; }
+
+.services__row-item {
+  width: 322px;
+  display: flex;
+  gap: 8;
+  align-items: flex-end; }
+
+.services__row-num {
+  font-family: "Saol Display";
+  font-size: 96px; }
+
+.services__row-text {
+  font-size: 24px;
+  padding-bottom: 8px; }
+
+.services-link__wrap {
+  text-align: center; }
+
+.services-link {
+  margin: 0 auto; }
+
+.testimonials__inner {
+  position: relative; }
+
+.testimonials__inner .inner-div {
+  width: 25%; }
+
+.testimonials__title {
+  color: #000; }
+
+.testimonials__top-text {
+  font-family: "Saol Display";
+  font-size: 95px;
+  font-weight: 400;
+  line-height: 90px; }
+
+.testimonials__top-text span {
+  font-family: "Aston Script"; }
+
+.slider-slide {
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  border-radius: 50px; }
