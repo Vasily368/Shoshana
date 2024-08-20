@@ -272,4 +272,3 @@ gsap.to('.header__inner',{
     
 })
 
-
