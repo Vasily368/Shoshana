@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,11 +13,11 @@
 </head>
 <body>
     <div class="wrapper">
-        <header class="header " style="background-image: url('images/header-bg.jpg');">
+        <header class="header " style="background-image: url(../images/header-bg.jpg);">
             <div class="container">
                <div class="header__inner">
                     <nav class="header__nav">
-                        <a class="logo" href="#"><img class="logo__img" src="images/logo.svg" alt="logo"></a>
+                        <a class="logo" href="#">CHERISHED  LILLY</a>
                         <ul class="nav__list">
                             <li class="nav__list-item"><a class="nav__list-link" href="#">BABY LOSS</a></li>
                             <li class="nav__list-item"><a class="nav__list-link" href="#">ABOUT</a></li>
@@ -24,13 +25,12 @@
                             <li class="nav__list-item"><a class="nav__list-link" href="#">TESTIMONIALS </a></li>
                         </ul>
                     </nav>
-                    <h1 class="header__title title"><span>F</span>ind strength, resilience, and <span>Hope</span> after pregnancy loss</h1>
-                    <p class="header__text">
-                        Nobody ever imagines they will be a part of the baby loss community.
-                    </p>
-                    <p class="header__text">
-                        But if you find yourself here, you will receive endless love and support from those who have already trod this journey.
-                    </p>
+                    <h1 class="header__title"><span>F</span>ind strength, resilience, and <span>Hope</span> after pregnancy loss</h1>
+                    
+                    
+                    <p class="header__text">Nobody ever imagines they will be a part of the baby loss community.</p>
+                    
+                    <p class="header__text header__text2" id='header-text2'>But if you find yourself here, you will receive endless love and support from those who have already trod this journey.</p>
                     <a class="header__link section-link" href="#"><span>Book a free consultation</span></a>
                </div>
             </div>
@@ -41,29 +41,19 @@
          <section class="baby">
             <div class="container">
                 <div class="baby__inner">
-                    <h4 class="section__title">baby loss</h4>
+                    <h4 class="section__title  baby-title">baby loss</h4>
                     <div class="inner-div"></div>
-                        <p class="baby__text-top"><span class="baby__text-selection">Experiencing the</span>
-                            loss of a pregnancy, infant,<span class="baby__text-selection">or </span>child <span class="baby__text-selection"> brings</span></p>
+                        <p class="baby__text-top"><span class="baby__text-selection">Experiencing the</span>loss of a pregnancy, infant,<span class="baby__text-selection">or </span>child <span class="baby__text-selection"> brings</span></p>
                     <div class="inner-div"></div>   
                         <p class="baby__text-top">unimaginable pain grief 
-                        <span class="baby__text-selection"> and </span>isolation.
-                        </p>
+                        <span class="baby__text-selection"> and </span>isolation.</p>
 
                     <div class="baby__text-wrap">
                         <p class="baby__text">It can feel like nobody understands your loss.</p>
                         <div class="baby__inner-div"></div>
-                        <p class="baby__text baby__text-padding"> 
-                            Even your partner can't really understand, because they are grieving in their own way.
-                            It likely hurts more than anything you have ever experienced.
-                            Life doesn't seem fair right now and it can be hard to imagine moving forward. 
-                        </p>
+                        <p class="baby__text baby__text-padding"> Even your partner can't really understand, because they are grieving in their own way. It likely hurts more than anything you have ever experienced. Life doesn't seem fair right now and it can be hard to imagine moving forward.</p>
                         <div class="baby__inner-div baby-bottom__inner-div"></div>
-                        <p class="baby__text">
-                            You may be going through motions at work,
-                             with your significant other and perhaps even with your other children.
-                             You want to feel understood; you want a safe space to share your grief, to express your emotions, and to heal.
-                        </p>
+                        <p class="baby__text">You may be going through motions at work,with your significant other and perhaps even with your other children.You want to feel understood; you want a safe space to share your grief, to express your emotions, and to heal.</p>
                     </div>
                     
                     <div class="running-line">
@@ -135,7 +125,7 @@ I received training and certification to bring my assistance to the next level s
             </div>
          </section>
 
-         <section class="bunner " style="background-image: url('images/bunner-bg.jpg');">
+         <section class="bunner " style="background-image: url(../images/bunner-bg.jpg);">
             <div class="container">
                 <div class="bunner__titles">
                     <h2 class="bunner__title">But  as  long  as  there  are  women in  pain</h2>
@@ -202,22 +192,27 @@ I received training and certification to bring my assistance to the next level s
                     <h4 class="section__title testimonials__title">testimonials</h4>
                     <div class="inner-div"></div>
                     <h2 class="testimonials__top-text"> <span>W</span> hat  my <br> clients  say:</h2>
-                    <div class="slider-container">
-                        <div class="slider-wrapper">
-                            <div class="slider-slide">
-                                <p class="slider-slide__text">
-                                    Shoshana was there for me at a very dark time.Pregnancy loss, a stillborn is a real heartbreak,
-                                     yet she was there.Her compassion and understanding of how a woman can feel after the tragedy of the loss of a 
-                                     baby can help you find courage together to move on.
-                                     “You’re not the only one, you’re not alone” is what echoed each time
-                                      Shoshana reached out to me. A caring heart and someone who gets what life can hit you with yet at the same time not judging you as you grasp the challenges of your experience.
 
-                                </p>
-                                <p class="slider-slide__text">
-                                    Shoshana has a special heart and soul and a gift of understanding the impact of loss of your beloved and precious little one.
-                                </p>
-                                <span class="slider-slide__name">Chaya T.</span>
+                    <div class="slider-container swiper-container">
+                        <div class="slider-wrapper swiper-wrapper">
+                            <div class="slider-slide__wrap swiper-slide ">
+                                <div class="slider-slide ">
+                                    <p class="slider-slide__text">
+                                        Shoshana was there for me at a very dark time.Pregnancy loss, a stillborn is a real heartbreak,
+                                         yet she was there.Her compassion and understanding of how a woman can feel after the tragedy of the loss of a 
+                                         baby can help you find courage together to move on.
+                                         “You’re not the only one, you’re not alone” is what echoed each time
+                                          Shoshana reached out to me. A caring heart and someone who gets what life can hit you with yet at the same time not judging you as you grasp the challenges of your experience.
+    
+                                    </p>
+                                    <p class="slider-slide__text">
+                                        Shoshana has a special heart and soul and a gift of understanding the impact of loss of your beloved and precious little one.
+                                    </p>
+                                    <span class="slider-slide__name">Chaya T.</span>
+                                </div>
                             </div>
+                            
+                        <div class="slider-slide__wrap swiper-slide ">
                             <div class="slider-slide">
                                 <p class="slider-slide__text">
                                     Shoshana can help you in your healing journey and set goals for you to easily accomplish as she guides you. She can help you see your problems in a new light and hold you accountable for your own self and integrity.  
@@ -226,9 +221,32 @@ If you need someone for emotional health support she can comfort you in whatever
                                 <span class="slider-slide__name">Sarah L.</span>
                             </div>
                         </div>
-                        <div class="slider-arrow slider-prev"></div>
-                        <div class="slider-arrow slider-next"></div>
+
+                        <div class="slider-slide__wrap swiper-slide ">
+                            <div class="slider-slide">
+                                <p class="slider-slide__text">
+                                    Shoshana can help you in your healing journey and set goals for you to easily accomplish as she guides you. She can help you see your problems in a new light and hold you accountable for your own self and integrity.  
+If you need someone for emotional health support she can comfort you in whatever state you come to her in. She will help you regain your confidence and get your life back on track.
+                                </p>
+                                <span class="slider-slide__name">Sarah L.</span>
+                            </div>
+                        </div>
+
+                        <div class="slider-slide__wrap swiper-slide ">
+                            <div class="slider-slide">
+                                <p class="slider-slide__text">
+                                    Shoshana can help you in your healing journey and set goals for you to easily accomplish as she guides you. She can help you see your problems in a new light and hold you accountable for your own self and integrity.  
+If you need someone for emotional health support she can comfort you in whatever state you come to her in. She will help you regain your confidence and get your life back on track.
+                                </p>
+                                <span class="slider-slide__name">Sarah L.</span>
+                            </div>
+                        </div>
+                           
+                        </div>
+                        <div class="slider-arrow slider-prev swiper-button-prev"><img src="images/arrow-left.svg" alt="prev"></div>
+                        <div class="slider-arrow slider-next swiper-button-next"><img src="images/arrow-right.svg" alt="next"></div>
                     </div>
+
                 </div>
             </div>
          </section>
@@ -246,25 +264,32 @@ If you need someone for emotional health support she can comfort you in whatever
                         </div>
                         <div class="footer-forma__input-wrap">
                             <input class="footer-forma__input" placeholder="Email" type="text">
-                            <a class="footer-forma__input-link" href="#"><img class="footer-forma__input-img" src="images/arrow.svg" alt="arrow"></a>
+                            <a class="footer-forma__input-link" href="#"><img class="footer-forma__input-img" src="images/arrow-right-input.svg" alt="arrow"></a>
                         </div>
-                        <ul class="footer__list">
-                            <li class="footer__list-item"><a class="footer__list-link" href="#">BABY LOSS</a></li>
-                            <li class="footer__list-item"><a class="footer__list-link" href="#">ABOUT</a></li>
-                            <li class="footer__list-item"><a class="footer__list-link" href="#">SERVICES</a></li>
-                            <li class="footer__list-item"><a class="footer__list-link" href="#">TESTIMONIALS</a></li>
-                        </ul>
+                        
                     </form>
                 </div>
-                <div class="running-line">
-                    <p class="running-line__text">CHERISHED  LILLY</p>
+                <div class="footer__list-wrap">
+                    <ul class="footer__list">
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">BABY LOSS</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">ABOUT</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">SERVICES</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#">TESTIMONIALS</a></li>
+                    </ul>
                 </div>
+                
+            </div>
+            <div class="running-line">
+                <p class="running-line__text running-line__text-footer">CHERISHED  LILLY</p>
             </div>
            </div>
         </footer>
 
-    </div>
 
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="js/main.js"></script>    
 </body>
 </html>
