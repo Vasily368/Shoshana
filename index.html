@@ -19,11 +19,16 @@
                     <nav class="header__nav">
                         <a class="logo" href="#">CHERISHED  LILLY</a>
                         <ul class="nav__list">
-                            <li class="nav__list-item"><a class="nav__list-link" href="#">BABY LOSS</a></li>
-                            <li class="nav__list-item"><a class="nav__list-link" href="#">ABOUT</a></li>
-                            <li class="nav__list-item"><a class="nav__list-link" href="#">SERVICES</a></li>
-                            <li class="nav__list-item"><a class="nav__list-link" href="#">TESTIMONIALS </a></li>
+                            <li class="nav__list-item"><a class="nav__list-link" href="#baby">BABY LOSS</a></li>
+                            <li class="nav__list-item"><a class="nav__list-link" href="#about">ABOUT</a></li>
+                            <li class="nav__list-item"><a class="nav__list-link" href="#services">SERVICES</a></li>
+                            <li class="nav__list-item"><a class="nav__list-link" href="#testimonials">TESTIMONIALS </a></li>
                         </ul>
+                           
+                            <div class="burger">
+                                <span></span>
+                            </div>
+                        
                     </nav>
                     <h1 class="header__title"><span>F</span>ind strength, resilience, and <span>Hope</span> after pregnancy loss</h1>
                     
@@ -34,11 +39,20 @@
                     <a class="header__link section-link" href="#"><span>Book a free consultation</span></a>
                </div>
             </div>
+            <div class="menu__hidden hide ">
+                <ul class=" nav__list--hide">
+                    <li class="nav__item--hide"><a class=" nav__link--hide" href="#baby">BABY LOSS</a></li>
+                    <li class=" nav__item--hide"><a class="nav__link--hide " href="#about">ABOUT</a></li>
+                    <li class="nav__item--hide"><a class=" nav__link--hide " href="#services">SERVICES</a></li>
+                    <li class="nav__item--hide"><a class=" nav__link--hide" href="#testimonials">TESTIMONIALS </a></li>
+                </ul>
+                <div class="cross">x</div>
+            </div>
         </header>
 
         <div class="main">
 
-         <section class="baby">
+         <section class="baby" id="baby">
             <div class="container">
                 <div class="baby__inner">
                     <h4 class="section__title  baby-title">baby loss</h4>
@@ -48,12 +62,15 @@
                         <p class="baby__text-top">unimaginable pain grief 
                         <span class="baby__text-selection"> and </span>isolation.</p>
 
-                    <div class="baby__text-wrap">
+                    <div class="baby__text-box">
                         <p class="baby__text">It can feel like nobody understands your loss.</p>
-                        <div class="baby__inner-div"></div>
-                        <p class="baby__text baby__text-padding"> Even your partner can't really understand, because they are grieving in their own way. It likely hurts more than anything you have ever experienced. Life doesn't seem fair right now and it can be hard to imagine moving forward.</p>
-                        <div class="baby__inner-div baby-bottom__inner-div"></div>
+                    <div class="baby__text-wrap"> 
+                        <p class="baby__text "> Even your partner can't really understand, because they are grieving in their own way. It likely hurts more than anything you have ever experienced. Life doesn't seem fair right now and it can be hard to imagine moving forward.</p>
+                    </div> 
+                    <div class="baby__text-wrap baby__text-padding">
                         <p class="baby__text">You may be going through motions at work,with your significant other and perhaps even with your other children.You want to feel understood; you want a safe space to share your grief, to express your emotions, and to heal.</p>
+                    </div>
+                    </div>
                     </div>
                     
                     <div class="running-line">
@@ -63,7 +80,7 @@
             </div>
          </section>
 
-         <section class="about">
+         <section class="about" id="about">
             <div class="about-bg">
                 <img class="about-bg__img" src="images/bg.jpg" alt="bg">
             </div>
@@ -129,8 +146,8 @@ I received training and certification to bring my assistance to the next level s
             <div class="container">
                 <div class="bunner__titles">
                     <h2 class="bunner__title">But  as  long  as  there  are  women in  pain</h2>
-                    <div></div>
-                    <h2 class="bunner__title"> I will  be  here  to  help.</h2>
+                    
+                    <h2 class="bunner__title bunner__title-padding"> I will  be  here  to  help.</h2>
                 </div>
             </div>
          </section>
@@ -148,7 +165,7 @@ I received training and certification to bring my assistance to the next level s
             </div>
          </section>
 
-         <section class="services">
+         <section class="services" id="services">
             <div class="container">
                 <div class="services__inner">
                     <h4 class="section__title services__title">services</h4>
@@ -185,7 +202,7 @@ I received training and certification to bring my assistance to the next level s
             </div>
          </section>
 
-         <section class="testimonials">
+         <section class="testimonials" id="testimonials">
             <div class="container">
                 <div class="testimonials__inner">
 
@@ -271,10 +288,10 @@ If you need someone for emotional health support she can comfort you in whatever
                 </div>
                 <div class="footer__list-wrap">
                     <ul class="footer__list">
-                        <li class="footer__list-item"><a class="footer__list-link" href="#">BABY LOSS</a></li>
-                        <li class="footer__list-item"><a class="footer__list-link" href="#">ABOUT</a></li>
-                        <li class="footer__list-item"><a class="footer__list-link" href="#">SERVICES</a></li>
-                        <li class="footer__list-item"><a class="footer__list-link" href="#">TESTIMONIALS</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#baby">BABY LOSS</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#about">ABOUT</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#services">SERVICES</a></li>
+                        <li class="footer__list-item"><a class="footer__list-link" href="#testimonials">TESTIMONIALS</a></li>
                     </ul>
                 </div>
                 
@@ -284,7 +301,6 @@ If you need someone for emotional health support she can comfort you in whatever
             </div>
            </div>
         </footer>
-
 
 
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
